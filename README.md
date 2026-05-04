@@ -62,8 +62,8 @@ CResultWriter             serializes CResult<CTree, CError> to file
 ## Building
 
 ```bash
-git clone https://github.com/<username>/TEP_Lista_3.git
-cd TEP_Lista_3
+git clone https://github.com/MarczukMobbyn/AdvancedMathExpressionTree.git
+cd AdvancedMathExpressionTree
 
 mkdir build && cd build
 cmake ..
@@ -184,3 +184,17 @@ Expressions are written in **prefix notation**: the operator precedes its operan
 | `CTreeException.h` | Exception hierarchy (`CDivisionByZeroException`) |
 | `CMySmartPointer.h` | Reference-counted smart pointer |
 | `CRefCounter.h` | Shared reference counter with pointer registry |
+
+---
+
+
+---
+
+## Context / Acknowledgments
+
+This project was developed as part of the "Effective Programming Techniques" (TEP) coursework at **Politechnika Wrocławska**. It serves as an academic showcase of advanced C++ paradigms.
+
+## Author
+
+**Szymon Marczuk**
+- [GitHub](https://github.com/MarczukMobbyn)
